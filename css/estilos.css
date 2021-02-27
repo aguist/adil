@@ -1,0 +1,352 @@
+
+										/* BODY */
+body {
+	background-color: #3c4053; 
+    
+	color: #fff;
+}
+
+
+
+
+
+										/*CONTENEDOR*/
+
+.contenedorGrande{
+	background:#024959;
+	width:90%;
+	max-width:1000px;
+	margin:auto;
+	
+	}
+
+.contenedor{
+	/*background-color: #172a68;*/
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+
+	display: flex;
+	display: -webkit-flex;
+	display: -ms-flexbox;	
+	}										
+
+
+
+
+
+
+
+
+
+									/* HEADER    */
+
+
+
+
+
+header {
+	width: 100%;
+
+}
+
+header nav {
+	max-width: 90%;
+	max-width: 1000px;
+	margin: 20px auto;
+	background: #024959;
+	
+	
+	
+}  
+
+header nav ul li a {
+	font-size:20px;
+
+}
+
+header nav ul li a:hover{
+	background-color: rgb(31, 207, 199);
+	color: #000;
+}
+a{outline: none;}
+header nav ul li a:active{
+	background-color: rgb(31, 207, 199);
+	color: #000;
+}
+
+
+.menu_bar{
+	display: none;
+}
+
+header nav ul li span {
+	margin-right: 10px;
+}
+
+
+/* header nav ul{
+	overflow: hidden;
+	list-style: none;
+
+}
+
+header nav ul li {
+	float: left;
+}
+
+header nav ul li a {
+	color: #fff;
+	padding: 20px;
+	display: block;
+	text-decoration: none;
+	 font-size: 20px;
+} 
+
+
+header nav ul li a:hover {
+	background: #037E8C;
+	
+}
+ */
+ 
+
+
+@media screen and (max-width: 800px){
+
+	.contenedorGrande{
+		width:100%;
+	}
+
+	header nav {
+		width: 80%;
+		height: 100%;
+		left: -100%;
+		margin: 0;
+		position: fixed;
+		display: inline;
+			
+	}
+
+	header nav ul li {
+		display: block;
+		float: none;
+		border-bottom:1px solid rgba(255,255,255, .3);
+	}
+
+	header nav ul li a:hover{
+		background-color: rgb(31, 207, 199);
+		color: #000;
+	}
+
+	header nav ul li a:active{
+		background-color: rgb(31, 207, 199);
+		color: #000;
+	}
+	
+
+	.menu_bar {
+		display: block;
+		width: 100%;
+		background: #ccc;
+		
+		
+	}
+
+	.menu_bar .bt_menu {
+		display: block;
+		padding: 20px;
+		background: #024959;
+		color: #fff;
+		text-decoration: none;
+		font-weight: bold;
+		font-size: 25px;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	.menu_bar span {
+		float: right;
+		font-size: 40px;
+	}
+
+}
+
+									/*LOGOTIPO*/
+.logotipo {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+									/*ARTICULO 1*/
+.articulo {
+	
+	display: flex;
+	flex-direction: row;
+}
+.img  img{
+	-moz-box-shadow:7px 7px 5px rgba(16, 16 ,16, .7);
+-webkit-box-shadow: 7px 7px 5px rgba(16, 16 ,16, .7);
+box-shadow: 7px 7px 5px rgba(16, 16 ,16, .7);
+}
+
+.texto {
+	padding: 15px;
+	font-size: 22px;
+	min-width: 200px;
+
+}	
+
+@media screen and (max-width: 800px){
+.articulo{
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap; 
+
+	}
+.articulo img {
+	width: 100%;
+	height: auto;
+	
+	
+}
+
+.articulo .img{
+	margin: auto;
+}
+  }
+
+
+/* carusel */
+
+.carousel .carousel-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    width: 400px;
+    height: 400px;
+}
+
+.carousel .carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 20px;
+}
+
+.carousel .indicators .indicator-item {
+
+    border-radius: 0;
+    transform: rotate(45deg);
+    margin: 0 15px;
+    background: #000;
+    margin-bottom: 20px;
+
+}
+
+
+
+.avellana {
+	font-size: 20px;
+	width: 60%;
+	text-align: center;
+	margin: auto;
+}
+
+
+/* algodon */
+
+
+
+.algodon{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+    padding-top: 20px;
+	}
+
+
+.algodon img{
+	-moz-box-shadow:7px 7px 5px rgba(16, 16 ,16, .7);
+-webkit-box-shadow: 7px 7px 5px rgba(16, 16 ,16, .7);
+box-shadow: 7px 7px 5px rgba(16, 16 ,16, .7);
+width: 50%;
+
+
+display: block;
+margin:auto;
+
+}
+
+
+
+/* cakes */
+.tarta{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+    padding-top: 20px;
+	}
+
+
+
+.tarta img{
+	-moz-box-shadow:7px 7px 5px rgba(16, 16 ,16, .7);
+-webkit-box-shadow: 7px 7px 5px rgba(16, 16 ,16, .7);
+box-shadow: 7px 7px 5px rgba(16, 16 ,16, .7);
+width: 50%;
+
+
+
+display: block;
+margin:auto;
+
+}
+
+.h3{
+ display: flex;
+ justify-content: center;
+
+
+}
+
+.tar{
+	display: flex;
+	justify-content: center;
+	
+   
+   }
+
+
+
+.abajo h3 {
+	font-size: 25px;
+}
+   
+footer {
+	background-color: rgb(87, 77, 77);
+	width: 100%;
+	padding: 10px;
+	text-align: center;
+	max-width: 1000px;
+	margin: auto;
+}
+
+
+
+
+
+
+
+
+

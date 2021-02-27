@@ -1,0 +1,117 @@
+body {
+    background-color: #024959; 
+    color: #fff;
+}
+
+
+.contenedor, .reparto, .alquiler {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.reparto {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.parr{
+    margin-left: 20px;
+    font-size: 27px;
+}
+.reparto .parr a {
+    margin-left: 50px;
+    color: aqua;
+   
+}
+
+.reparto .camion {
+    -moz-box-shadow:7px 7px 5px rgba(16, 16 ,16, .7);
+-webkit-box-shadow: 7px 7px 5px rgba(16, 16 ,16, .7);
+box-shadow: 7px 7px 5px rgba(16, 16 ,16, .7);
+width: 80%;
+max-width: 400px;
+margin-left: 10px;
+margin-top: 10px;
+
+}
+
+
+.maquinael{
+    -moz-box-shadow:7px 7px 5px rgba(16, 16 ,16, .7);
+    -webkit-box-shadow: 7px 7px 5px rgba(16, 16 ,16, .7);
+    box-shadow: 7px 7px 5px rgba(16, 16 ,16, .7);
+    width: 80%;
+    max-width: 400px;
+    margin-left: 10px;
+    margin-top: 10px;
+    
+    
+}
+
+.sol {
+   display: flex;
+   justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+h4 {
+    font-size: 30px;
+    margin: auto;
+    margin-left: 20px;
+}
+
+.pre {
+    
+    width: 100%;
+    
+    height: auto;
+    text-align: center;
+    padding: 5px;
+    display: block;
+    font-size: 20px;
+    margin: 10px;
+    background: linear-gradient(to bottom, #0c36be, #0c7cdf);
+}
+
+.numero {
+    font-size: 50px;
+    
+    
+}
+
+.price {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.texto {
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.sugar {
+    width: 80%;
+    max-width: 400px;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+
+footer {
+	background-color: rgb(87, 77, 77);
+	width: 100%;
+	padding: 10px;
+	text-align: center;
+	max-width: 1000px;
+	margin: auto;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
